@@ -26,3 +26,9 @@ URL `amqp://guest:guest@localhost:5672` digunakan dalam kedua program subscriber
 
 # Running RabbitMQ as message broker.
 ![alt text](./img/image.png)
+
+# Sending and processing event.
+Screenshot terminal ketika berhasil menerima 5 event message broker dari publisher.
+![alt text](./img/image1.png)
+
+Setelah menjalankan perintah cargo run pada subscriber dan publisher, data yang telah disiapkan oleh publisher akan diposting ke dalam antrian pesan yang ada. Setelah itu, subscriber akan mengambil data dari antrian pesan tersebut dan menampilkan informasinya di console atau terminal sesuai dengan pesan yang telah dikirimkan oleh publisher.
