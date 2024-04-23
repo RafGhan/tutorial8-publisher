@@ -22,3 +22,7 @@ URL `amqp://guest:guest@localhost:5672` digunakan dalam kedua program subscriber
 
 * `guest:guest`: bagian ini merepresentasikan kredensial(`guest` pertama merujuk ke username dan `guest`merujuk ke password) yang digunakan untuk autentikasi.
 * `@localhost:5672`: merujuk pada alamat hostname dan port number dari server dimana merupakan tempat broker AMQP berjalan. `localhost` mengacu pada mesin lokal dan `5672` adalah nomor port default untuk komunikasi AMQP. 
+
+
+# Running RabbitMQ as message broker.
+![alt text](./img/image.png)
