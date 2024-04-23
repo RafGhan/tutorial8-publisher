@@ -32,3 +32,9 @@ Screenshot terminal ketika berhasil menerima 5 event message broker dari publish
 ![alt text](./img/image1.png)
 
 Setelah menjalankan perintah cargo run pada subscriber dan publisher, data yang telah disiapkan oleh publisher akan diposting ke dalam antrian pesan yang ada. Setelah itu, subscriber akan mengambil data dari antrian pesan tersebut dan menampilkan informasinya di console atau terminal sesuai dengan pesan yang telah dikirimkan oleh publisher.
+
+# Monitoring chart based on publisher.
+Screenshot grafik RabbitMQ yang menunjukkan adanya spike pada message rates
+![alt text](./img/image2.png)
+
+Spike dalam message rates yang terlihat pada grafik disebabkan oleh eksekusi berulang dari perintah cargo run pada publisher, mengakibatkan pengiriman pesan setiap kali perintah tersebut dijalankan.
